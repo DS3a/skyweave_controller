@@ -1,0 +1,14 @@
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/controller.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/edit_cache.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/rebuild_cache.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/list_install_components.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/install.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/install/local.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/CMakeFiles/install/strip.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/edit_cache.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/rebuild_cache.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/list_install_components.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/install.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/install/local.dir
+/home/ds3a/dev/wadiyan_carpet/skyweave_controller/build/crazyflie_cpp/CMakeFiles/install/strip.dir

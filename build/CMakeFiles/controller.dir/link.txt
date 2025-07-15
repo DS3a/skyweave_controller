@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/controller.dir/src/controller.cpp.o -o controller  crazyflie_cpp/libcrazyflie_cpp.a /usr/lib/x86_64-linux-gnu/libusb-1.0.so 

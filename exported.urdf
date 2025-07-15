@@ -1,0 +1,1181 @@
+<robot name="skyweave_duo">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_0">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_1">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_2">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_3">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_4">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_5">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_6">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_7">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_8">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_9">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_10">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_11">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_12">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_13">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_14">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_15">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_16">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_17">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_18">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_0_link_19">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.013000000000000001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="arm_0_joint_base_0" type="revolute">
+    <child link="arm_0_link_0"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0.0"/>
+  </joint>
+  <joint name="arm_0_joint_0_1" type="revolute">
+    <child link="arm_0_link_1"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_0"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_1_2" type="revolute">
+    <child link="arm_0_link_2"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_1"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_2_3" type="revolute">
+    <child link="arm_0_link_3"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_2"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_3_4" type="revolute">
+    <child link="arm_0_link_4"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_3"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_4_5" type="revolute">
+    <child link="arm_0_link_5"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_4"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_5_6" type="revolute">
+    <child link="arm_0_link_6"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_5"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_6_7" type="revolute">
+    <child link="arm_0_link_7"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_6"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_7_8" type="revolute">
+    <child link="arm_0_link_8"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_7"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_8_9" type="revolute">
+    <child link="arm_0_link_9"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_8"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_9_10" type="revolute">
+    <child link="arm_0_link_10"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_9"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_10_11" type="revolute">
+    <child link="arm_0_link_11"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_10"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_11_12" type="revolute">
+    <child link="arm_0_link_12"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_11"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_12_13" type="revolute">
+    <child link="arm_0_link_13"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_12"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_13_14" type="revolute">
+    <child link="arm_0_link_14"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_13"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_14_15" type="revolute">
+    <child link="arm_0_link_15"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_14"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_15_16" type="revolute">
+    <child link="arm_0_link_16"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_15"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_16_17" type="revolute">
+    <child link="arm_0_link_17"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_16"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_17_18" type="revolute">
+    <child link="arm_0_link_18"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_17"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_0_joint_18_19" type="revolute">
+    <child link="arm_0_link_19"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_0_link_18"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <link name="arm_1_link_0">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_1">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_2">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_3">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_4">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_5">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_6">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_7">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_8">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_9">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_10">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_11">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_12">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_13">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_14">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_15">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_16">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_17">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_18">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="arm_1_link_19">
+    <inertial>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <mass value="0.013000000000000001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.001"/>
+      </geometry>
+    </collision>
+    <visual>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+      <origin xyz="0 0.01 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.015"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="arm_1_joint_base_0" type="revolute">
+    <child link="arm_1_link_0"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 3.141592653589793"/>
+  </joint>
+  <joint name="arm_1_joint_0_1" type="revolute">
+    <child link="arm_1_link_1"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_0"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_1_2" type="revolute">
+    <child link="arm_1_link_2"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_1"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_2_3" type="revolute">
+    <child link="arm_1_link_3"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_2"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_3_4" type="revolute">
+    <child link="arm_1_link_4"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_3"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_4_5" type="revolute">
+    <child link="arm_1_link_5"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_4"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_5_6" type="revolute">
+    <child link="arm_1_link_6"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_5"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_6_7" type="revolute">
+    <child link="arm_1_link_7"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_6"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_7_8" type="revolute">
+    <child link="arm_1_link_8"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_7"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_8_9" type="revolute">
+    <child link="arm_1_link_9"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_8"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_9_10" type="revolute">
+    <child link="arm_1_link_10"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_9"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_10_11" type="revolute">
+    <child link="arm_1_link_11"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_10"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_11_12" type="revolute">
+    <child link="arm_1_link_12"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_11"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_12_13" type="revolute">
+    <child link="arm_1_link_13"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_12"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_13_14" type="revolute">
+    <child link="arm_1_link_14"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_13"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_14_15" type="revolute">
+    <child link="arm_1_link_15"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_14"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_15_16" type="revolute">
+    <child link="arm_1_link_16"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_15"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_16_17" type="revolute">
+    <child link="arm_1_link_17"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_16"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_17_18" type="revolute">
+    <child link="arm_1_link_18"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_17"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="arm_1_joint_18_19" type="revolute">
+    <child link="arm_1_link_19"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="1000" velocity="100" lower="-3.14" upper="3.14"/>
+    <parent link="arm_1_link_18"/>
+    <origin xyz="0 0.01 0" rpy="0 0 0"/>
+  </joint>
+</robot>
